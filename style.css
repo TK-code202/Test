@@ -1,0 +1,260 @@
+/* index.html */
+#Logo {
+    
+    display: flex; 
+    gap: 20px; 
+    align-items: center;
+     background-color: aqua; 
+}
+
+h2 {text-align: center;
+
+}
+
+#News-item1 { margin-top:80px;     
+    margin-left: 100px; 
+    margin-right: 50px
+
+}
+
+#News-item2 { margin-top:80px;     
+    margin-left: 100px; 
+    margin-right: 50px
+
+}
+
+#News-item3 { margin-top:80px;     
+    margin-left: 100px; 
+    margin-right: 50px
+
+}
+.Term { font-size: larger;
+    
+}
+
+.Headline {
+   
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Login Page */
+.Content {
+    background-image: url(./img/pexels-gradienta-7130495.jpg); 
+    background-size: cover;
+}
+
+
+.Logo-Section{
+   
+  
+    padding: 40px;
+}
+
+
+#Logo_Heading { 
+    margin-left: 390px;
+    opacity: 0.7;
+
+}
+
+#Heading {
+    margin-left: 320px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(4, 12, 56);
+    
+}
+
+#Form-Area1 {border-style: none;    
+    border-radius: 5px;  margin-left: 338px; 
+    padding: 30px; 
+    width: 280px; 
+    height: 200px; background-color: rgba(245, 245, 220, 0.404);
+
+}   
+
+#Username1  {border-radius:5px;    border-width:0.2px; 
+    outline: none;
+     border-color: blue; 
+     width: 200px;
+      height: 20px;
+
+}
+
+#Space { padding-top: 30px;
+
+}
+
+
+#Password1 { border-radius:5px; border-width:0.2px;
+     outline: none;
+      border-color: blue; 
+      height: 20px;
+
+}
+
+
+#Form-Footer {display: flex; gap:80px; 
+    align-items: center;padding-top: 70px;
+
+}
+
+#Button1 {
+    border-radius:5px; border-width:0.2px; background-color: rgb(60, 221, 60);
+     cursor: pointer; 
+     outline: none; 
+     font:larger;  
+     height: 25px;
+      width: 80px;
+       color: white;
+}
+
+#Link1 {
+    padding-top: 5px; margin-left:338px; 
+    font-size: smaller;
+
+}
+
+/* Sign Up Page */
+#Logo-Heading {
+    margin-left: 390px;
+}
+
+.Form-Area2 {
+    margin-left:332px;
+     margin-top: 23px; border-style:none; border-radius: 8px;
+     height: 580px;
+     width: 300px;  
+     padding: 30px;  background-color: rgb(208, 233, 225); 
+
+}
+
+#Space2 {
+    padding-top: 5px;
+}
+
+#Name {
+    border-radius:5px; border-width:0.2px; 
+    outline: none;
+     border-color: blue; 
+     width: 200px;
+      height: 20px;
+}
+
+#Space3 {
+    padding-top: 10px;
+}
+
+#Password2 {
+    border-radius:5px; border-width:0.2px; 
+    outline: none; 
+    border-color: blue;
+     height: 20px; 
+     width: 200px;
+
+}
+
+
+
+#Password3 {
+    border-radius:5px; border-width:0.2px; 
+    outline: none; 
+    border-color: blue; 
+    height: 20px; 
+    width: 200px;
+}
+
+
+#State {
+    border-radius:5px; border-width:0.2px; 
+    outline: none; 
+    border-color: blue; 
+    height: 25px; 
+    width: 200px;
+}
+
+#Age {
+    border-radius:5px; border-width:0.2px; 
+    outline: none; 
+    border-color: blue;
+     height: 17px;
+
+}
+
+#email {
+    border-radius:5px; border-width:0.2px;
+     outline: none; 
+     border-color: blue; 
+     height: 20px;
+}
+
+#Info {
+    padding-top: 30px;
+    font-weight: 100;
+}
+
+#Space4 {
+    padding-top: 8px;
+}
+
+#Space5 {
+    padding-top: 50px;
+
+}
+
+#Submit {
+    width: 100px;
+     height: 30px;
+      outline: none; border-radius: 5px; border-width: 0.3px;
+      color: white;
+       border-color: whte; background-color: rgb(58, 58, 235); 
+       cursor: pointer;
+}
+
+/* Forget Password Page */
+
+
+#Logo-Heading {
+    margin-left: 380px;
+ 
+}
+#Head {
+    margin-left: 388px;
+}
+
+.Forgot-Password-Form {
+    margin-left:335px ; border-style: solid;border-radius: 5px; border-color: azure; background-color: ghostwhite; 
+     padding: 30px;
+      width:280px;
+}
+
+#space1 {
+    padding-top: 20px;
+}
+
+#Email {
+    border-radius:4px; border-color:#000;
+    outline: none; 
+    height: 20px; 
+    width: 250px; background-color:ghostwhite; border-width: 0.3px;
+}
+
+#sub {
+    padding-top:50px;padding-bottom: 20px ;
+}
+
+#submit {
+    width: 250px; 
+    border-radius: 5px; background-color: rgb(65, 233, 65);
+     outline:none;
+     border-color: white; 
+     height: 30px; 
+     cursor: pointer;
+}
+
+#Link2 {
+    text-align: center;
+    
+}
+#link2 {
+    text-decoration: none;
+}

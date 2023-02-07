@@ -4,44 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./img/star.png">
     <title>Sign Up Page</title>
 </head>
 <body>
     <!-- Header -->
-    <section class="Logo-Section" style="padding: 40px;" >
-        <center><img src="./img/star.png" alt="Logo" width="150" height="150" >
-        <h3 style=" font-family: Georgia, 'Times New Roman', Times, serif;color: rgb(4, 12, 56); " >Star News Limited Sign-Up Page</h3></center>
+    <section class="Logo-Section">
+       <span id="Logo-Heading"><img src="./img/star.png" alt="Logo" width="150" height="150" ></span>
+       <div id="Heading"><h3>Star News Limited Sign-Up Page</h3></div>
+       </section>
 
    <section class="Form Area"> 
-        <div class="Form-Area" style="margin-left:280px; margin-top: 60px; border-style:none; border-radius: 8px;height: 580px;width: 300px;  padding: 30px;  background-color: rgb(208, 233, 225); " >
+        <div class="Form-Area2">
             <form action="./LogInPage.html"  >
                 <p>Fill all the fields below and click submit to create your account.</p>
                 <label for="Name"><strong>Full Name</strong>
-                <div style="padding-top: 5px;" >
-                <input type="text" name="Name" id="Name" placeholder="Enter Your Name" style=" border-radius:5px; border-width:0.2px; outline: none; border-color: blue; width: 200px; height: 20px;" required >
+                <div id="Space2">
+                <input type="text" name="Name" id="Name" placeholder="Enter Your Name" required >
                     </div>                   
                 </label>
 
-            <div style="padding-top: 10px;">
+            <div id="Space3">
             <label for="Pwd"
                 <strong>Password</strong>
                 <br>
-                <input type="password" id="Password"  minlength="2" maxlength="7" placeholder="Create a password " required style="border-radius:5px; border-width:0.2px; outline: none; border-color: blue; height: 20px; width: 200px;" required>
+                <input type="password" id="Password2"  minlength="2" maxlength="7" placeholder="Create a password "   required>
 
                 </label>
+            </div>
 
-              <div style="padding-top: 10px;">
+              <div id="Space3">
 
-                 <input type="password" id="Password"  minlength="2" maxlength="7" placeholder="Enter Your Password again " required style="border-radius:5px; border-width:0.2px; outline: none; border-color: blue; height: 20px; width: 200px;" required>
+                 <input type="password" id="Password3"  minlength="2" maxlength="7" placeholder="Enter Your Password again "required>
               </div>
                 
-            <div style="padding-top: 10px;">
+            <div id="Space3">
 
                 <label for="State">
                 <strong>State Of Residence</strong>
                 <br>
-                <select name="State" id="" style="border-radius:5px; border-width:0.2px; outline: none; border-color: blue; height: 25px; width: 200px;" required>
+                <select name="State" id="State" required>
                 
                     <option value="Abia">Abia</option>
                     <option value="Lagos">Lagos</option>
@@ -59,30 +62,31 @@
                 </label>
                 </div>
                 
-                <div style="padding-top: 10px;">
+                <div id="Space3">
                     <label for="Age">
                         <strong>Age</strong>
                         <br>
-                        <input type="number" id="Age" style="border-radius:5px; border-width:0.2px; outline: none; border-color: blue; height: 17px;" required >
+                        <input type="number" id="Age" required >
                     </label>
                 </div>  
 
-                <div style="padding-top:10px">
+                <div id="Space3">
                     <label for="Email">
                         <strong>Email</strong>
                         <br>
-                        <input type="email" name="Email" style="border-radius:5px; border-width:0.2px; outline: none; border-color: blue; height: 20px;" required >
+                        <input type="email" name="Email" 
+                        id="email" >
                     </label>
                 </div>
-                <p style="padding-top: 30px;font-weight: 100; ">Creating this account will enable Star News Ltd. to send you news notifications. Clicking this button means you agree to our terms and condition.</p>
-                <div style="padding-top: 8px;">
+                <p id="Info">Creating this account will enable Star News Ltd. to send you news notifications. Clicking this button means you agree to our terms and condition.</p>
+                <div id="Space4">
                     <label for="Agreement">
-                        <input type="checkbox" name="Agree" id="" required>I agree
+                        <input type="checkbox" name="Agree" id="Check" required>I agree
                     </label>
                 </div>
 
-                <div style="padding-top: 50px;">
-                    <input type="submit" value="Submit" style="width: 100px; height: 30px; outline: none; border-radius: 5px; border-width: 0.3px;color: white; border-color: whte; background-color: rgb(58, 58, 235); cursor: pointer;">
+                <div id="Space5">
+                    <input type="submit" value="Submit" id="Submit">
                 </div>
             </form>
         </div>

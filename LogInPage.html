@@ -4,46 +4,52 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
         <link rel="icon" href="./img/star.png">
         <title>LogIn Page</title>
          
         
     </head>
- <body>
+ <body class="Content">
+    
     <!-- Header -->
-     <section class="Logo-Section" style="padding: 40px;" >
-        <center><img src="./img/star.png" alt="Logo" width="150" height="150" >
-        <h3 style=" font-family: Georgia, 'Times New Roman', Times, serif;color: rgb(4, 12, 56); " >Star News Limited Log-In Page</h3></center>
+     <section class="Logo-Section">
+        <span id="Logo_Heading"><img src="./img/star.png" alt="Logo" width="150" height="150" ></span>
+        <div id="Heading"> <h3>Star News Limited Log-In Page</h3></div>
 
      </section>
 
      <section class="Log In Form" >
-        <div id="Form-Area" style=" border-style: none; border-radius: 5px; border-color: aqua; margin-left: 338px; padding: 30px; width: 280px; height: 200px; background-color: beige;" >
+        <div id="Form-Area1"
             <form action="./index.html" target="_blank" >
                 <label for="Username">Username/Email
                     <br>
-                    <input type="text" name="Username" placeholder="Enter your username/email" required style="border-radius:5px; border-width:0.2px; outline: none; border-color: blue; width: 200px; height: 20px;">
+                    <input type="text" name="Username" placeholder="Enter your username/email" required 
+                    id="Username1"
+                    >
                 </label>
-                <div style="padding-top: 30px;">
+                <div id="Space">
                 <label for="Password">Password
                     <br>
-                    <input type="password"  id="Password" required minlength="3" maxlength="8" style="border-radius:5px; border-width:0.2px; outline: none; border-color: blue; height: 20px;">
+                    <input type="password"  id="Password1" required minlength="3" maxlength="8" >
                 </label>
                 </div>
                 
-                <div id="Form-Footer" style="display: flex; gap:80px; align-items: center;padding-top: 70px;" >
-                  <button style="border-radius:5px; border-width:0.2px; background-color: rgb(60, 221, 60); cursor: pointer; outline: none; font:larger;  height: 25px; width: 80px; color: white;"  >Log In</button> 
+                <div id="Form-Footer">
+                  <button 
+                  id="Button1" >Log In</button> 
                   <a href="./ForgetPassword.html" > Forgot Password?</a>
                 </div>
 
             </form>
              
         </div>
-        <div style="padding-top: 5px; margin-left:338px; font-size: smaller; " >
+        <div id="Link1">
             Don't have an account? <a href="./SignUp.html"> Sign Up!</a>
         </div>
 
      </section>
+ 
         
  </body>
 </html>
