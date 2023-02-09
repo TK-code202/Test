@@ -65,14 +65,16 @@ h2 {text-align: center;
 }
 
 #Form-Area1 {border-style: none;    
-    border-radius: 5px;  margin-left: 338px; 
+    border-radius: 5px; 
+     margin-left: 338px; 
     padding: 30px; 
     width: 280px; 
     height: 200px; background-color: rgba(245, 245, 220, 0.404);
 
 }   
 
-#Username1  {border-radius:5px;    border-width:0.2px; 
+#Username1  {border-radius:5px;    
+    border-width:0.2px; 
     outline: none;
      border-color: blue; 
      width: 200px;
@@ -80,7 +82,7 @@ h2 {text-align: center;
 
 }
 
-#Space { padding-top: 30px;
+.input { padding-top: 30px;
 
 }
 
@@ -128,7 +130,7 @@ h2 {text-align: center;
 
 }
 
-#Space2 {
+.input2 {
     padding-top: 5px;
 }
 
@@ -140,7 +142,7 @@ h2 {text-align: center;
       height: 20px;
 }
 
-#Space3 {
+.input3 {
     padding-top: 10px;
 }
 
@@ -192,11 +194,11 @@ h2 {text-align: center;
     font-weight: 100;
 }
 
-#Space4 {
+.input4 {
     padding-top: 8px;
 }
 
-#Space5 {
+.input5 {
     padding-top: 50px;
 
 }
@@ -227,7 +229,7 @@ h2 {text-align: center;
       width:280px;
 }
 
-#space1 {
+.input1 {
     padding-top: 20px;
 }
 
