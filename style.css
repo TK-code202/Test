@@ -87,7 +87,8 @@ h2 {text-align: center;
 }
 
 
-#Password1 { border-radius:5px; border-width:0.2px;
+#Password1 {border-radius:5px; 
+    border-width:0.2px;
      outline: none;
       border-color: blue; 
       height: 20px;
@@ -147,11 +148,12 @@ h2 {text-align: center;
 }
 
 #Password2 {
-    border-radius:5px; border-width:0.2px; 
+     border-width:0.2px; 
     outline: none; 
     border-color: blue;
      height: 20px; 
      width: 200px;
+     background-color: none;
 
 }
 
